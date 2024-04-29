@@ -37,28 +37,43 @@ span{
     background-color: #E3FEF7;
 }
 
+
 .navigazione{
     background-color: #77B0AA;
+ /*  justify-content: center; */
+   /* align-items: center; */
+    height: 20vh;
+    width: 100vw;
 
-     
+    
 }
+/*
+.navigazione ul{
+    display: flex; 
+}
+.navigazione ul li{
+   
+}
+/*
 .navigazione span{
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 .navigazione span:hover{
-    font-size: 2em;
+    font-size: 1em;
 }
-
+*/
 .introduzione{
-    background-color: #77B0AA;
+   
+    background-color: #E3FEF7;
 }
 .privacy{
   
-    background-color: #E3FEF7;
+  /*  background-color: #E3FEF7;*/
+    background-color: #77B0AA;
 }
 .cyber{
-    
-    background-color: #77B0AA;
+    background-color: #E3FEF7;
+   /* background-color: #77B0AA;*/
 }
 .sicurrezza{
    

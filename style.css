@@ -1,0 +1,404 @@
+* {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+section {
+
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "header"
+        "content"
+        "content";
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    font-size: 5rem;
+}
+
+
+button {
+    background-color: black;
+}
+
+span {
+    font-size: 1.2em;
+
+}
+
+
+
+.homepage {
+    /* background-color: #E3FEF7; */
+    background-color: #ffffff;
+    justify-content: center;
+    align-content: center;
+    /* display: inline-grid; */
+    /* grid-template-columns: 100vw; */
+    /* grid-template-rows: 33% 33% 33%; */
+}
+
+#homepage{
+    display: inline-block;
+    margin: auto;
+ 
+}
+
+ .homepage h1{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.homepage span{
+    font-size: 1.3em;
+} 
+
+.navigazione {
+    color: white;
+    /* background-color: #77B0AA; */
+    background-color: #000000;
+    justify-content: center;
+    height: 20vh;
+    width: 100vw;
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+
+
+}
+
+.navigazione button {
+    background-color: transparent;
+}
+
+#navig {
+
+    grid-row:1/1;
+    grid-column: 2/2;
+    justify-self: end;
+
+
+}
+
+
+#navig h2 {
+    font-size: 1.9em;
+    
+}
+
+a {
+    color: black;
+    margin: 0 10px;
+    position: relative;
+    top: -24%;
+    left: 5%;
+}
+
+.navigazione a {
+    color: white;
+    display: flex;
+    width: 16.7%;
+   
+}
+
+
+
+
+#IP
+{
+    grid-column: 1/1;
+    grid-row:2/2;
+    justify-self: center;
+} 
+#PC {
+    grid-column: 1/1;
+    grid-row:3/3;
+    justify-self: center;
+}
+
+#LGSO {
+    grid-column: 2/2;
+    grid-row:2/2;
+    justify-self: start;
+}
+
+#ASSM {
+    grid-column: 2/2;
+    grid-row:3/3;
+    justify-self: start;
+}
+
+#CC {
+    grid-column: 3/3;
+    grid-row:2/2;
+    justify-self: start;
+}
+
+#ECD {
+    grid-column: 3/3;
+    grid-row:3/3;
+    justify-self: start;
+}
+
+#FRB {
+    grid-column: 4/4;
+    grid-row:2/2;
+    justify-self: start;
+}
+
+/* #FRB span :hover{
+    font-size:2em;
+} */
+/* 
+position: relative;
+top: -10vh;
+left: 8vw;
+font-size: 0.3em;
+} */
+
+
+
+.introduzione {
+    background-color: #E3FEF7;
+
+    justify-content: center;
+    align-items: normal;
+
+}
+
+.introduzione p {
+    position: relative;
+    left: 1em;
+    font-size: 1.5rem;
+}
+
+.introduzione h2 {
+    position: relative;
+    left: 40%;
+    font-size: 2.4rem;
+}
+#spanIntro{
+    position: relative;
+    left: 2%;
+}
+#intro {
+    position: relative;
+    top: 2em;
+    left: 35em;
+}
+
+.headers {
+    display: inline-block;
+    width: 20px;
+}
+
+
+.privacy {
+
+    /*  background-color: #E3FEF7;*/
+    background-color: #77B0AA;
+    
+    display: inline-grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 25% 25% 25% 25%;
+
+    align-items: normal;
+
+}
+
+.privacy p {
+    position: relative;
+    top: 20%;
+    left: -15vw;
+    font-size: 1.6rem;
+    order: 2;
+}
+
+.privacy h2 {
+    font-size: 2.4rem;
+}
+
+#priv {
+    position: relative;
+    left: 41vw;
+    top: 1vh;
+
+
+}
+
+#testoprivacy{
+    /* grid-column: 2/4 ;
+    grid-row: 2/4 ;  */
+    width: 100vw;
+    /* overflow: ; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    position: relative;
+    top: 38vh;
+    left: -21vw;
+
+}
+#testoprivacy p{
+    /* position: relative; */
+    /* top: vh; */
+    /* left: 17vw; */
+    /* display: inline-block; */
+    /* grid-column: 2/4 ;
+    grid-row: 2/4 ; 
+    justify-self: start; */
+    align-self: center
+
+
+}
+
+.iconesocial {
+    display: inline-block;
+    position: relative;
+    left: -11%;
+    top: -47%;
+    height: 8vh;
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+    justify-self: center;
+}
+
+.iconesocial button {
+    /* position: relative; */
+    /* top: -37vh; */
+    /* left: -5vw; */
+    background-color: transparent;
+    border: none;
+} 
+.iconesocial img {
+    width: 4vw;
+}
+
+.iconesocial img:active {
+    width: 3.5vw;
+}
+
+.cyber {
+    background-color: #E3FEF7;
+    /* background-color: #77B0AA;*/
+    align-items: normal;
+}
+
+.cyber p {
+    position: relative;
+    top: 20%;
+    left: -5vw;
+    font-size: 1.5rem;
+}
+
+.cyber h2 {
+    font-size: 2.4rem;
+}
+
+#CB {
+    position: relative;
+    left: 40vw;
+    top: 1vh;
+}
+
+#testocyber {
+    position: relative;
+    left: 10vw;
+    width: 100%;
+
+}
+
+
+.sicurrezza {
+
+    background-color: #E3FEF7;
+    align-items: normal;
+}
+
+.sicurrezza p {
+    position: relative;
+    top: 20%;
+    left: -5vw;
+    font-size: 1.5rem;
+}
+
+.sicurrezza h2 {
+    position: relative;
+    left: 44%;
+    font-size: 2.4rem;
+}
+
+#SO {
+    width: 50vw;
+    position: relative;
+    left: 15vw;
+    top: 1vh;
+
+}
+
+#testoSO {
+    position: relative;
+    left: 10vw;
+    width: 100%;
+}
+
+.bnr {
+    background-color: #77B0AA;
+    align-items: normal;
+}
+
+.bnr p {
+    position: relative;
+    top: 20%;
+    left: -5vw;
+    font-size: 1.5rem;
+}
+
+.bnr h2 {
+    position: relative;
+    left: 44%;
+    font-size: 2.4rem;
+}
+#BR {
+    width: 50vw;
+    position: relative;
+    left: 15vw;
+    top: 1vh;
+
+}
+
+#testoBR {
+    position: relative;
+    left: 10vw;
+    width: 100%;
+}
+
+#inizia {
+    color: white;
+    text-decoration: none;
+
+}
+
+
+a {
+    color: black;
+}
